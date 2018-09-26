@@ -13,10 +13,17 @@ katz_deli.push(name)
 puts "Welcome, #{name}. You are number #{katz_deli.length} in line."
 end
 
-def now_serving(katz_deli)
-  katz_deli.shift
+def take_a_number(katz_deli)
+  katz.deli.push()
+  
+  
+
+def serving_number(katz_deli)
   if katz_deli.length == 0 
     puts "There is no one to be served!"
   else
     puts "Currently serving #{katz_deli[0]}"
-  puts ""
+    katz_deli.shift
+
+end
+end

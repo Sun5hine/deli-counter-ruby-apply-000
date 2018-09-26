@@ -13,4 +13,4 @@ katz_deli.push(name)
 puts "Welcome, #{name}. You are number #{katz_deli.length} in line."
 end
 
-filter_parameter_logging
+def 
